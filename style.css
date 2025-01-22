@@ -1,0 +1,33 @@
+nav{
+    display: flex;   
+    background-color: cyan;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+li{
+list-style: none;
+padding-right: 23px;
+color: black;
+}
+button{
+    background: transparent;
+    border: 2px solid cyan;
+    border-radius: 25px;
+    color: cyan;
+    padding: 10px;
+    margin-top: 20px;
+}
+#michael{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#mj{
+    padding: 20px;
+    font-size: 50px;
+    margin-top: 30px;
+}

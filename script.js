@@ -1,0 +1,58 @@
+const jokes = [
+    "Why do programmers prefer dark mode? Because light attracts bugs!",
+    "How do you comfort a JavaScript bug? You console it.",
+    "Why did the developer go broke? Because he used up all his cache.",
+    "What’s a programmer’s favorite type of music? Algorithms!",
+    "Why was the JavaScript developer sad? Because he didn’t know how to ‘null’ his feelings.",
+    "How does a programmer open a jar? They write an API for it.",
+    "Why do programmers hate nature? It has too many bugs.",
+    "What do you call 8 hobbits? A hobbyte.",
+    "Why do JavaScript developers hate arguments? Because they always get undefined!",
+    "What’s the object-oriented way to become wealthy? Inheritance.",
+    "Why did the function break up with the variable? It didn't have the right scope.",
+    "What is a programmer's favorite hangout spot? The Foo Bar.",
+    "Why do Python developers prefer using `len()`? Because they don’t like counting manually.",
+    "Why was the developer always calm? Because he had a lot of ‘try’ in his life.",
+    "What do you get when you cross a programmer with an artist? A really well-designed bug.",
+    "Why do programmers prefer using Linux? Because they love the command-line lifestyle.",
+    "What do you call a computer that sings? A Dell.",
+    "Why do programmers hate long commutes? They prefer coding in their home environment.",
+    "What’s a programmer’s least favorite chore? Debugging dinner.",
+    "Why do Java developers wear glasses? Because they can’t C#.",
+    "Why do programmers never get lost? They always know their path.",
+    "What did the JavaScript array say to the other? 'You push my buttons!'",
+    "Why did the database admin break up with the table? It had too many issues.",
+    "Why do coders love coffee? Because it helps them debug faster.",
+    "How do you know a programmer is an extrovert? They look at your shoes instead of their own.",
+    "Why was the keyboard so relaxed? It had all the control.",
+    "What did the server say to the client? 'You make my requests complete.'",
+    "Why do coders hate daylight savings time? Because it causes timestamp bugs.",
+    "What’s a programmer’s favorite place to hang out? The Stack Overflow lounge.",
+    "Why did the programmer quit his job? He didn’t get arrays.",
+    "Why do programmers prefer keyboards over mice? Precision and no double-click headaches.",
+    "Why do programmers love binary jokes? Because they’re either 1 or 0.",
+    "What’s a computer’s favorite snack? Microchips!",
+    "Why did the computer crash at the party? It left its windows open.",
+    "Why are assembly programmers so good at arguments? They always have strong pointers.",
+    "What did the code say to the debugger? 'Stop bugging me!'",
+    "Why do programmers love hiking? They can explore the root directory.",
+    "Why do web developers hate spiders? They break their web designs.",
+    "What do you call a program that acts up in the morning? A JavaScript nightmare.",
+    "Why don’t programmers like nature documentaries? Too many trees.",
+    "Why was the loop feeling infinite? Because it never got a break.",
+    "Why did the developer bring a ladder? To reach new heights in programming.",
+    "Why do programmers never relax? They’re always on edge.",
+    "What’s a programmer’s favorite breakfast? Cereal… but in hexadecimal.",
+    "Why did the programmer go to art school? To improve their abstract thinking.",
+    "What’s the scariest thing a programmer can hear? 'It works on my machine.'",
+    "Why did the developer avoid relationships? Too many dependencies.",
+    "What do programmers do on Halloween? Code in the dark.",
+    "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25."
+];
+
+function algorithm(){
+   let data = Math.floor(Math.random()*jokes.length)
+   let info = jokes[data]
+   let action = document.getElementById("mj")
+   action.innerHTML = info
+}
